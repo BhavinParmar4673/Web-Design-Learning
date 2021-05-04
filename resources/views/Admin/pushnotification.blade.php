@@ -42,7 +42,7 @@
                                     <label for="attachment" class="form-control rounded-border-file text-center">
                                     <span class="rounded2r">Upload</span>
                                     <span id="filename"></span>
-                                    <!-- insert filename using javaScript when file has uploaded -->
+                                    <!-- insert filename using javaScript    when file has uploaded -->
                                     </label>
                                 </div>
                                 <img src="https://source.unsplash.com/user/erondu/daily" class="img-div"/>   

@@ -4,42 +4,46 @@
 <div class="container">
     <h3 class="py-5">Notifications</h3>
 
-    <div class="row">
-        <div class="d-flex col-lg-5 col-md-12 mb-2 md-mb-0">
-            <button class="btn btn-message"><i class="fa fa-plus pr-2"></i>Add Message</button>
-        </div>
-        <div class="d-flex col-lg-4 col-md-12">
-            <input type="text" class="form-control rounded-message" placeholder="01-02-2021">
-            <label for="staticEmail" class="col-form-label px-1">-</label>
-            <input type="text" class="form-control rounded-message" placeholder="01-02-2021">
-            <div class="form-group mx-1">
-                <select class="form-control rounded-icon">
-                <option selected="selected">Receiver</option>
-                <option>option 1</option>
-                <option>option 2</option>
-                <option>option 3</option>
-                <option>option 4</option>
-                <option>option 5</option>
-                </select>
+
+
+
+        <div class="row">
+            <div class="col-lg-5 col-sm-12 mb-3 lg-mb-0">
+                <button class="btn btn-message"><i class="fa fa-plus pr-2"></i>Add Message</button>
             </div>
-        </div>
-        <div class="d-flex col-lg-3 col-md-12">
-            <div class="form-group">
-                <select class="form-control rounded-icon">
-                <option selected="selected">Status</option>
-                <option>option 1</option>
-                <option>option 2</option>
-                <option>option 3</option>
-                <option>option 4</option>
-                <option>option 5</option>
-                </select>
+            <div class="d-flex col-lg-4 col-sm-12">
+                <input type="text" class="form-control rounded-message" placeholder="01-02-2021">
+                <label for="staticEmail" class="col-form-label px-1">-</label>
+                <input type="text" class="form-control rounded-message" placeholder="01-02-2021">
+                <div class="form-group ml-1">
+                    <select class="form-control rounded-icon">
+                    <option selected="selected">Receiver</option>
+                    <option>option 1</option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                    <option>option 4</option>
+                    <option>option 5</option>
+                    </select>
+                </div>
             </div>
-            <div class="search_field mx-1">
-                <input type="text" class="form-control rounded-icon" placeholder="Search">
-                    <i class="fa fa-search"></i>
+            <div class="d-flex col-lg-3 col-sm-12">
+                <div class="form-group">
+                    <select class="form-control rounded-icon">
+                    <option selected="selected">Status</option>
+                    <option>option 1</option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                    <option>option 4</option>
+                    <option>option 5</option>
+                    </select>
+                </div>
+                <div class="form-group search_field mx-1">
+                    <input type="text" class="form-control rounded-icon" placeholder="Search">
+                        <i class="fa fa-search"></i>
+                </div>
             </div>
+
         </div>
-    </div>
 
 
     <div class="table-responsive-lg">
