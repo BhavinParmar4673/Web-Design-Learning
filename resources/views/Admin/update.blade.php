@@ -8,25 +8,25 @@
         <div class="form-group row">
           <label for="first name" class="col-sm-3 col-form-label">First Name</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control rounded-border">
+            <input type="text" class="form-control rounded-border-form">
           </div>
         </div>
         <div class="form-group row">
           <label for="last name" class="col-sm-3 col-form-label">Last Name</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control rounded-border">
+            <input type="text" class="form-control rounded-border-form">
           </div>
         </div>
         <div class="form-group row">
           <label for="email" class="col-sm-3 col-form-label">Email</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control rounded-border">
+            <input type="text" class="form-control rounded-border-form">
           </div>
         </div>
         <div class="form-group row">
           <label for="phone" class="col-sm-3 col-form-label">Phone</label>
           <div class="col-sm-9">
-            <input type="phone" class="form-control rounded-border">
+            <input type="phone" class="form-control rounded-border-form">
           </div>
         </div>
         <div class="form-group row">

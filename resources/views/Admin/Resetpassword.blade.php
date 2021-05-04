@@ -12,13 +12,13 @@
             <div class="card-body">
                 <form class="login-form">
                     <div class="form-group">
-                        <input type="text" class="form-control rounded-border" placeholder="Current Password">
+                        <input type="text" class="form-control rounded-border-form" placeholder="Current Password">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control rounded-border" placeholder="New Password">
+                        <input type="password" class="form-control rounded-border-form" placeholder="New Password">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control rounded-border" placeholder="Repeat New Password">
+                        <input type="password" class="form-control rounded-border-form" placeholder="Repeat New Password">
                     </div>
                     <div class="form-group pt-4 d-flex justify-content-center">
                         <button type="submit" class="btn rounded-btn">Reset Password</button>
