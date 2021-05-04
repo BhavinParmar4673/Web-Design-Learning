@@ -3,10 +3,6 @@
 @section('content')
 <div class="container">
     <h3 class="py-5">Notifications</h3>
-
-
-
-
         <div class="row">
             <div class="col-lg-5 col-sm-12 mb-3 lg-mb-0">
                 <button class="btn btn-message"><i class="fa fa-plus pr-2"></i>Add Message</button>

@@ -183,7 +183,7 @@ form,label{
     background: #FFFFFF;
     box-shadow: 0px 2px 15px rgba(98, 107, 149, 0.14);
     border-radius: 20px;
-    max-height: 620px;
+   
 }
 input[type=file] {
     display: none;
@@ -208,22 +208,15 @@ input[type=file] {
     color: #FFFFFF !important;
 }
 
-
-@media only screen and (min-width: 800px) {
-    .rounded-border{
-        width: 310px !important;
-    }
-    .inside_pushdiv{
-        width: 960px !important;
-    }
-}
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .rounded-icon{
         width: 104px;
     }
     .table{
         width: auto;
+    }
+    .img-div{
+        width: 150px;
     }
   }
 
