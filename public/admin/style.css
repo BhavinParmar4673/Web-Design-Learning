@@ -98,6 +98,8 @@ form,label{
     background: #E5E5E5 !important;
 }
 .inside_div{
+    width: 375px;
+    height: 341px;
     box-shadow: 0px -3px 15px rgba(98, 107, 149, 0.139724);
     border-radius: 10px;
 }
@@ -157,9 +159,7 @@ form,label{
     cursor: pointer;
   }
 
-  .table{
-      width: 1138px;
-  }
+
   .table th{
     font-family: Montserrat;
     font-style: normal;
@@ -194,7 +194,6 @@ form,label{
     background: #FFFFFF;
     box-shadow: 0px 2px 15px rgba(98, 107, 149, 0.14);
     border-radius: 20px;
-   
 }
 input[type=file] {
     display: none;
@@ -219,15 +218,18 @@ input[type=file] {
     color: #FFFFFF !important;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+.custom-switch-lg {
+    padding-bottom: 1rem;
+      padding-left: 2.25rem;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1022px) {
     .rounded-icon{
         width: 104px;
     }
-    .table{
-        width: auto;
-    }
     .img-div{
         width: 150px;
+    }.notification{
+        justify-content: flex-start !important;
     }
   }
 
@@ -235,13 +237,12 @@ input[type=file] {
 
     .rounded-message{
         width: 74px;
+     }.notification{
+        justify-content: flex-start !important;
     }
 
     .rounded-icon{
         width: 109px;
-    }
-    .inside_pushdiv{
-        max-height:900px;
     }
 }
 

@@ -32,3 +32,9 @@ Route::get('/notification', function () {
 Route::get('/pushnotification', function () {
     return view('Admin.pushnotification');
 });
+Route::get('/languages', function () {
+    return view('Admin.languages');
+});
+Route::get('/slider', function () {
+    return view('Admin.slider');
+});

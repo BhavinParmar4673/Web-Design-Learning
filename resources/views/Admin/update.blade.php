@@ -3,30 +3,31 @@
 @section('content')
 <div class="container">
 <h2 class="py-3">Settings</h2>
-<div class="d-flex py-5">
-    <form class="login-form">
+<div class="d-flex row py-5">
+    <div class="col-md-5 offset-md-3">
+      <form class="login-form">
         <div class="form-group row">
           <label for="first name" class="col-sm-3 col-form-label">First Name</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control rounded-border-form">
+            <input type="text" class="form-control rounded-border">
           </div>
         </div>
         <div class="form-group row">
           <label for="last name" class="col-sm-3 col-form-label">Last Name</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control rounded-border-form">
+            <input type="text" class="form-control rounded-border">
           </div>
         </div>
         <div class="form-group row">
           <label for="email" class="col-sm-3 col-form-label">Email</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control rounded-border-form">
+            <input type="text" class="form-control rounded-border">
           </div>
         </div>
         <div class="form-group row">
           <label for="phone" class="col-sm-3 col-form-label">Phone</label>
           <div class="col-sm-9">
-            <input type="phone" class="form-control rounded-border-form">
+            <input type="phone" class="form-control rounded-border">
           </div>
         </div>
         <div class="form-group row">
@@ -37,6 +38,7 @@
           </div>
         </div>
       </form>
+    </div>
 </div>
 </div>
 @endsection

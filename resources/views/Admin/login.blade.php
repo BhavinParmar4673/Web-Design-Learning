@@ -1,19 +1,20 @@
 @extends('Admin.master')
 @section('title','Login Form')
 @section('content')
+<div class="container">
 <div class="d-flex login-container">
     <form class="login-form p-4">
       <h1 class="offset-sm-3 text-center mb-5">Tedera</h1>
         <div class="form-group row">
           <label for="staticEmail" class="col-sm-3 col-form-label">Email</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control rounded-border-form">
+            <input type="text" class="form-control rounded-border">
           </div>
         </div>
         <div class="form-group row">
           <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
           <div class="col-sm-9">
-            <input type="password" class="form-control rounded-border-form">
+            <input type="password" class="form-control rounded-border">
           </div>
         </div>
         <div class="form-group row">
@@ -24,6 +25,7 @@
           </div>
         </div>
       </form>
+</div>
 </div>
 @endsection
     
