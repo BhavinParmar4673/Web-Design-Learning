@@ -38,3 +38,6 @@ Route::get('/languages', function () {
 Route::get('/slider', function () {
     return view('Admin.slider');
 });
+Route::get('/form', function () {
+    return view('Admin.form');
+});
